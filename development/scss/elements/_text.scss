@@ -9,19 +9,26 @@
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: -10px;
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+    width: 600px;
 
-
-    &::after {
-      content: 'duality';
+    & .hidetext {
       position: absolute;
-      top: 40px;
-      left: -80px;
-      color: #EFDE74;
-      z-index: -1;
-      font-size: 150px;
-      font-weight: 600;
-      letter-spacing: 8px;
     }
+  }
+
+  h2 {
+    position: absolute;
+    top: 40px;
+    left: -80px;
+    color: #efde74;
+    z-index: -1;
+    font-size: 150px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-transform: uppercase;
   }
 
   h3 {
@@ -29,6 +36,13 @@
     text-transform: uppercase;
     font-weight: 600;
     line-height: 1;
+    position: relative;
+    overflow: hidden;
+    height: 80px;
+
+    & .hidetext {
+      position: absolute;
+    }
   }
 
   p {
@@ -36,5 +50,12 @@
     font-size: 12px;
     margin-top: 30px;
     font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    height: 90px;
+
+    & .hidetext {
+      position: absolute;
+    }
   }
 }
