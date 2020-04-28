@@ -17,3 +17,10 @@ body {
 ul {
   list-style: none;
 }
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
