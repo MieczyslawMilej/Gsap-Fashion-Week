@@ -72,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     delay: 2,
     opacity: 0,
     y: "20",
+    scale: 0.5,
     ease: "expo.inOut"
   });
 
