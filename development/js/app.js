@@ -67,14 +67,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //DISTORTION
 
-  gsap.from(".distortion", {
-    duration: 1.5,
-    delay: 2,
-    opacity: 0,
-    y: "20",
-    scale: 0.5,
-    ease: "expo.inOut"
-  });
+  if (window.matchMedia("(max-width: 640px)").matches) {
+    gsap.from(".distortion", {
+      duration: 1.5,
+      delay: 2,
+      opacity: 0,
+      y: "20",
+      scale: 0.5,
+      ease: "expo.inOut"
+    });
+  } else {
+    gsap.from(".distortion", {
+      duration: 1.5,
+      delay: 2,
+      opacity: 0,
+      y: "20",
+      ease: "expo.inOut"
+    });
+  }
 
   //OVERLAY
 

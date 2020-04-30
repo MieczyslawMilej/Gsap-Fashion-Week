@@ -1,4 +1,8 @@
 @media screen and (max-width: 640px) {
+  .body {
+    cursor: auto;
+  }
+
   .text {
     transform: rotate(0deg) scale(0.5);
     top: 0px;
@@ -27,7 +31,7 @@
     padding: 0 10px;
   }
 
-  .overlay {
-    transform: rotate(-90deg);
+  .cursor {
+    display: none;
   }
 }
