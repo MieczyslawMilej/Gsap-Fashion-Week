@@ -4,6 +4,7 @@ $ruller: 20px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  cursor: none;
 }
 
 ul {
@@ -23,4 +25,7 @@ ul {
   margin: 0 auto;
   position: relative;
   height: 100%;
+}
+a , ul li {
+  cursor: none;
 }
