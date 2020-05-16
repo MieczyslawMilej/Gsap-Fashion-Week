@@ -1,4 +1,4 @@
-# Star-Wars-Travel
+# Fashion Week
 Landing page z animacją
 (wersja na tablet wkrótce)
 
